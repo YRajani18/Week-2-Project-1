@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project 2</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="slider-container">
+    <div class="background" id="background" style="background-image: url('images/Winter.jpg');"></div>
+    <div class="carousel">
+      <div class="slide left" style="background-image: url('images/Beach.jpg');">
+        <div class="center-text">Beach days, best days</div>
+      </div>
+      <div class="slide left" style="background-image: url('images/Spring.jpg');">
+        <div class="center-text">Springtime bliss</div>
+      </div>
+      <div class="slide center" style="background-image: url('images/Winter.jpg');">
+        <div class="center-text">Winter Wonderland</div>
+      </div>
+      <div class="slide right" style="background-image: url('images/Sunset.jpg');">
+        <div class="center-text">Sunset Serenity</div>
+      </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button class="rotate-prev">❮</button>
+    <button class="rotate-next">❯</button>
+
+    <!-- Thumbnail Navigation -->
+    <div class="thumbnail-nav">
+      <img class="thumbnail" src="images/Beach.jpg" alt="Beach" data-index="0">
+      <img class="thumbnail" src="images/Spring.jpg" alt="Spring" data-index="1">
+      <img class="thumbnail" src="images/Winter.jpg" alt="Winter" data-index="2">
+      <img class="thumbnail" src="images/Sunset.jpg" alt="Sunset" data-index="3">
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
